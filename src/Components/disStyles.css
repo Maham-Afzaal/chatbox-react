@@ -1,0 +1,16 @@
+.divRecive{
+  align-self: flex-start;
+  justify-content: flex-start;
+  .divAvat{
+    display: flex;
+  }
+}
+.divSend{
+  align-items: flex-end;
+  justify-content: flex-end;
+  .divAvat{
+    display: flex;
+    flex-direction: row-reverse;
+    }
+}
+

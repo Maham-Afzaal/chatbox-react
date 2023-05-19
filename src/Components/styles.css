@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.my-custom-font {
+  font-family: 'Monoton', cursive;
+  }
+  .textt{
+    font-family: 'Fredericka the Great', cursive;
+
+  }
+  .divMain{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  } 
+.imgg{
+  width: 100%;
+  object-fit: cover;
+}
+  @media only screen and (min-width: 500px){
+    .imgg{
+      /* width: 28em !important; */
+      height: 18em !important; 
+      object-fit: cover;
+    }
+     
+  }
+  @media only screen and (max-width: 450px){
+    .my-custom-font{
+      font-size: 23px !important;
+      color: brown !important;
+    }
+  }
+  
